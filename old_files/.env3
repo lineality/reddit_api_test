@@ -1,0 +1,30 @@
+env = {'client_id': 'where_to_post',
+    'client_secret':	'6Sjzef6mTqMOX1M_Hhw2jdVhyZ4',
+    'password': 'S*dsolb%bbyu^38hrfw89bkwG*%75828Hd(39HGDjk^N89jw6a7$WIvh&*#hAhBIDw2',
+    'user_agent': 'initial_testing',
+    'username': 'geoffreygashbrook'}
+
+
+    reddit = praw.Reddit(client_id=env['client_id'],
+                         client_secret=env['client_secret'],
+                         password=env['password'],
+                       user_agent=env['user_agent'],
+                         username=env['username'])
+
+
+                         reddit = praw.Reddit(client_id = 'where_to_post',
+                         client_secret = '6Sjzef6mTqMOX1M_Hhw2jdVhyZ4',
+                         password = 'S*dsolb%bbyu^38hrfw89bkwG*%75828Hd(39HGDjk^N89jw6a7$WIvh&*#hAhBIDw2',
+                         user_agent = 'initial_testing',
+                         username = 'geoffreygashbrook')
+
+#no spaces
+ENV="development"
+DATABASE_URL="sqlite:///db.sqlite3"
+TWITTER_CONSUMER_KEY="DZdvGg3ouAqsSJnEAPFo3vYsN"
+TWITTER_CONSUMER_SECRET="8albBBMJYIWvipGWlGeqZtlt9k7DGd4959zs0Rf1hEnTr6eTX0"
+TWITTER_ACCESS_TOKEN="1180226221340266501-JNZNzZOuJayy7XLxEhMVwIFiJgJilx"
+TWITTER_ACCESS_TOKEN_SECRET="eg01LdiZN3TOMZkL1ODbCTbmmMyqZXiqrYzQKCwFtZrKO"
+BASILICA_KEY="36a370e3-becb-99f5-93a0-a92344e78eab"
+#to speed things up just for local use
+FLASK_APP="where_to_post"

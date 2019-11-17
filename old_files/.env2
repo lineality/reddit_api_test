@@ -1,0 +1,5 @@
+reddit = praw.Reddit(client_id = 'where_to_post',
+client_secret = '6Sjzef6mTqMOX1M_Hhw2jdVhyZ4',
+password = 'S*dsolb%bbyu^38hrfw89bkwG*%75828Hd(39HGDjk^N89jw6a7$WIvh&*#hAhBIDw2',
+user_agent = 'initial_testing',
+username = 'geoffreygashbrook')

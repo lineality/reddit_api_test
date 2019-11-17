@@ -1,0 +1,10 @@
+#no spaces
+ENV="development"
+DATABASE_URL="sqlite:///db.sqlite3"
+client_id = "ILfDje_uE8LHdg"
+client_secret = "0_GHamQoO6_ArNrLDKDhKvbl42I"
+password = "S*dsolb%bbyu^38hrfw89bkwG*%75828Hd(39HGDjk^N89jw6a7$WIvh&*#hAhBIDw2"
+user_agent = "post_it_test_1"
+username = "geoffreygashbrook"
+#to speed things up just for local use
+FLASK_APP="where_to_post"
