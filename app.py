@@ -19,6 +19,24 @@ or
 conda install praw
 """
 
+
+"""
+r's elegant version:
+
+import praw
+
+reddit = praw.Reddit(client_id="",
+                     client_secret="",
+                     user_agent="")
+
+
+subs = reddit.subreddits.popular()
+for i in subs.__iter__():
+    print(i)
+
+"""
+
+
 #importing libraries and packages
 import decouple
 from decouple import config
